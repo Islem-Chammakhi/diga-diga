@@ -14,7 +14,7 @@ This project aims to provide an intelligent and supportive space to help users m
 
 ```bash
 git clone https://github.com/Islem-Chammakhi/diga-diga.git
-cd ai-mental-wellness-app
+cd diga-diga
 ```
 
 ### 2.  Install dependencies
