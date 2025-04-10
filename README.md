@@ -10,8 +10,6 @@ This project aims to provide an intelligent and supportive space to help users m
 - User-friendly and accessible interface
 - AI-powered smart engine for personalized guidance
 
-## 📦 Installation
-
 ### 1. Clone the project
 
 ```bash
@@ -25,4 +23,6 @@ npm install
 ```
 
 ### 3.  Start the application
+```bash
 npm run dev
+```
