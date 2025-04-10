@@ -10,6 +10,10 @@ This project aims to provide an intelligent and supportive space to help users m
 - User-friendly and accessible interface
 - AI-powered smart engine for personalized guidance
 
+## 🌐 Live Demo
+
+Try it here 👉 [Click to open the live app]((https://diga-diga-8e9k.vercel.app/))
+
 ### 1. Clone the project
 
 ```bash
