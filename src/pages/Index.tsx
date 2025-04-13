@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { MessageSquare, LineChart, BookOpen, Sparkles, ArrowRight, ScanEye } from "lucide-react";
+import { MessageSquare, LineChart, Sparkles, ArrowRight, ScanEye } from "lucide-react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import InteractiveBackground from "@/components/animations/InteractiveBackground";

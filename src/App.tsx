@@ -7,7 +7,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Chat from "./pages/Chat";
 import Mood from "./pages/Mood";
-import Journal from "./pages/Journal";
 import Meditate from "./pages/Meditate";
 import NotFound from "./pages/NotFound";
 import Express from "./pages/Express";
@@ -25,7 +24,6 @@ const App = () => (
           <Route path="/chat" element={<Chat />} />
           <Route path="/express" element={<Express />} />
           <Route path="/mood" element={<Mood />} />
-          <Route path="/journal" element={<Journal />} />
           <Route path="/meditate" element={<Meditate />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

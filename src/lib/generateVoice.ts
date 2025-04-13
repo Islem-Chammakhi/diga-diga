@@ -1,4 +1,4 @@
-import { ElevenLabsClient, play } from "elevenlabs";
+import { ElevenLabsClient } from "elevenlabs";
 
 
 
@@ -29,8 +29,8 @@ export const generateVoice = async (text: string): Promise<string> => {
         return url;
     }
     catch (error) {
-        console.error("Erreur de génération vocale:", error);
-        return "Erreur de génération vocale";
+        console.error("Voice generation error:", error);
+        return "Voice generation error";
     }
 
 

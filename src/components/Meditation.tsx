@@ -23,7 +23,7 @@ const meditationTracks: Record<MeditationType, string[]> = {
   focus: ["/tracks/focus/focus1.mp3", "/tracks/focus/focus2.mp3"],
   sleep: ["/tracks/sleep/sleep1.mp3"],
   anxiety: ["/tracks/anxiety/anxiety1.mp3", "/tracks/anxiety/anxiety2.mp3"],
-  gratitude: ["/tracks/gratitude/gratitude1.mp3", "/tracks/gratitude/gratitude2.mp3", "/tracks/gratitude/gratitude3.mp3"],
+  gratitude: [ "/tracks/gratitude/gratitude2.mp3"],
 };
 
 const Meditation = () => {

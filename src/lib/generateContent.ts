@@ -5,8 +5,8 @@ export default async function generateCalmingContent(emotion: string,intensity:s
     // 1. Vérification obligatoire de la clé API
     const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
     if (!API_KEY) {
-        console.error("Erreur : La clé API Gemini n'est pas configurée");
-        return "Service temporairement indisponible. Veuillez réessayer plus tard.";
+        console.error("Error: Gemini API key is not configured");
+        return "Service temporarily unavailable. Please try again later.";
     }
 
     // 2. Initialisation de l'API
@@ -37,20 +37,20 @@ export default async function generateCalmingContent(emotion: string,intensity:s
 
         // 5. Vérification de la réponse
         if (!result?.response?.text) {
-            throw new Error("Réponse vide de l'API");
+            throw new Error("Empty response from API");
         }
 
         return result.response.text();
 
     } catch (error) {
-        console.error("Erreur Gemini API:", error);
+        console.error("Gemini API Error:", error);
         
         // 6. Messages de repli contextuels
         if (error.message.includes("safety")) {
-            return "Je détecte une requête sensible. Pour votre sécurité, je vous recommande de contacter un professionnel. Vous pouvez appeler le 3114 en France (SOS Suicide).";
+            return "I've detected a sensitive request. For your safety, I recommend you contact a professional. You can call 3114 in France (SOS Suicide).";
         }
         
-        return `Je rencontre des difficultés techniques. Voici un exercice apaisant : 
-        Inspirez profondément (4s), retenez (4s), expirez lentement (6s). Répétez 3 fois.`;
+        return `I'm experiencing technical difficulties. Here is a calming exercise: 
+        Breathe in deeply (4s), hold (4s), breathe out slowly (6s). Repeat 3 times.`;
     }
 }
