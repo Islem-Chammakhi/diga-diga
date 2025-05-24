@@ -3,6 +3,12 @@
 Welcome to the AI-Powered Mental Wellness App.  
 This project aims to provide an intelligent and supportive space to help users monitor, understand, and improve their mental well-being through smart technology.
 
+## 👥 Made by
+- Islem Chammakhi
+- Firas Ben Ali
+- Kassem Abbassi  
+---
+
 ## 🚀 Key Features
 
 - Automatic mood detection from text or voice
